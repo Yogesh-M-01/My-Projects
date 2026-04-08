@@ -1,1 +1,29 @@
+body {
+    font-family: Arial;
+    background: #121212;
+    color: white;
+    text-align: center;
+}
 
+.quiz-container {
+    width: 300px;
+    margin: 100px auto;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background: #00c6ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.answer {
+    display: block;
+    background: #1e1e1e;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+}
