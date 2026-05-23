@@ -1,4 +1,4 @@
-# Text To Speech App 🔊
+# Text To Speech App
 
 A browser-based text reader using Speech Synthesis API.
 
