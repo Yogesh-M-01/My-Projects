@@ -1,4 +1,4 @@
-# Translator App 🌍
+# Translator App
 
 A language translator using LibreTranslate API.
 
