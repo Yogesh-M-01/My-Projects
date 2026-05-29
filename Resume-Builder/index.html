@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>📄 Resume Builder</h1>
+
+<div class="container">
+
+    <div class="form">
+
+        <input type="text" id="name" placeholder="Full Name">
+
+        <input type="text" id="role" placeholder="Role">
+
+        <textarea id="about"
+        placeholder="About Yourself"></textarea>
+
+        <button onclick="generateResume()">
+            Generate Resume
+        </button>
+
+    </div>
+
+    <div class="resume" id="resume">
+
+        <h2>Your Resume Preview</h2>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
