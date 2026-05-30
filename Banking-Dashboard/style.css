@@ -69,8 +69,8 @@ button:nth-child(3){
 
 li{
     list-style:none;
-    padding:10px;
-    margin:10px;
+    padding:12px;
+    margin:12px;
     background:#334155;
     border-radius:8px;
 }
