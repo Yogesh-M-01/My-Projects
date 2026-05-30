@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banking Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+
+    <h1>🏦 Banking Dashboard</h1>
+
+    <div class="balance-card">
+        <h2>Current Balance</h2>
+        <h1 id="balance">₹0</h1>
+    </div>
+
+    <div class="actions">
+
+        <input
+        type="number"
+        id="amount"
+        placeholder="Enter Amount">
+
+        <button onclick="deposit()">
+            Deposit
+        </button>
+
+        <button onclick="withdraw()">
+            Withdraw
+        </button>
+
+    </div>
+
+    <div class="history">
+
+        <h2>Transaction History</h2>
+
+        <ul id="transactions"></ul>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
