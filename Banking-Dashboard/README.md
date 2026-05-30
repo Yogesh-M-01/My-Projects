@@ -1,4 +1,4 @@
-# 🏦 Banking Dashboard
+# Banking Dashboard
 
 A simple banking dashboard built using HTML, CSS and JavaScript.
 
