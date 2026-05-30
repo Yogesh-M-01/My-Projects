@@ -19,7 +19,7 @@ function deposit(){
     balance += amount;
 
     transactions.unshift(
-        `✅ Deposited ₹${amount}`
+        `Deposited ₹${amount}`
     );
 
     saveData();
@@ -44,7 +44,7 @@ function withdraw(){
     balance -= amount;
 
     transactions.unshift(
-        `❌ Withdrawn ₹${amount}`
+        ` Withdrawn ₹${amount}`
     );
 
     saveData();
