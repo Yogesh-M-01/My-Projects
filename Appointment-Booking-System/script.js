@@ -65,8 +65,8 @@ function renderAppointments(){
 
         div.innerHTML=`
         <h3>${appointment.name}</h3>
-        <p>📅 ${appointment.date}</p>
-        <p>⏰ ${appointment.time}</p>
+        <p> ${appointment.date}</p>
+        <p> ${appointment.time}</p>
 
         <button
         class="delete-btn"
