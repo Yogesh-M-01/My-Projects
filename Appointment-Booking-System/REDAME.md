@@ -1,4 +1,4 @@
-# 📅 Appointment Booking System
+#  Appointment Booking System
 
 A simple appointment booking application built using HTML, CSS and JavaScript.
 
