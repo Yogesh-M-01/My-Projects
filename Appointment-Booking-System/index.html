@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment Booking System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+
+    <h1>📅 Appointment Booking System</h1>
+
+    <div class="form">
+
+        <input type="text"
+        id="name"
+        placeholder="Enter Name">
+
+        <input type="date"
+        id="date">
+
+        <input type="time"
+        id="time">
+
+        <button onclick="bookAppointment()">
+            Book Appointment
+        </button>
+
+    </div>
+
+    <div class="appointments">
+
+        <h2>Booked Appointments</h2>
+
+        <div id="appointmentList"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
