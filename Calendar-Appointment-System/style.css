@@ -1,1 +1,56 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
 
+.calendar-container{
+    width:700px;
+    margin:auto;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 0;
+}
+
+.header button{
+    padding:10px;
+    cursor:pointer;
+}
+
+.weekdays,
+#calendar{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    gap:5px;
+}
+
+.weekdays div{
+    background:#1e293b;
+    padding:10px;
+    font-weight:bold;
+}
+
+.day{
+    background:#334155;
+    padding:20px;
+    min-height:80px;
+    cursor:pointer;
+    border-radius:8px;
+}
+
+.day:hover{
+    background:#475569;
+}
+
+.booked{
+    background:#16a34a;
+}
+
+.empty{
+    visibility:hidden;
+}
