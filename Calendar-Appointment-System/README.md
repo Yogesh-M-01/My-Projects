@@ -1,4 +1,4 @@
-# 📅 Calendar Appointment System
+#  Calendar Appointment System
 
 A calendar-based appointment booking application.
 
