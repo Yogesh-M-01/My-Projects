@@ -1,4 +1,4 @@
-# 👨‍⚕️ Doctor Appointment System
+#  Doctor Appointment System
 
 A hospital appointment booking application built using HTML, CSS and JavaScript.
 
