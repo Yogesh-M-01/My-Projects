@@ -75,7 +75,7 @@ function renderAppointments(){
 
         <p> ${app.doctor}</p>
 
-        <p>📅 ${app.date}</p>
+        <p> ${app.date}</p>
 
         <p>⏰ ${app.time}</p>
 
