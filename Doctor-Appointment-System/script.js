@@ -73,7 +73,7 @@ function renderAppointments(){
         div.innerHTML=`
         <h3>${app.patient}</h3>
 
-        <p>👨‍⚕️ ${app.doctor}</p>
+        <p> ${app.doctor}</p>
 
         <p>📅 ${app.date}</p>
 
