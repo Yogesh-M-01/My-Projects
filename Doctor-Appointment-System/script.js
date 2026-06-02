@@ -77,7 +77,7 @@ function renderAppointments(){
 
         <p> ${app.date}</p>
 
-        <p>⏰ ${app.time}</p>
+        <p> ${app.time}</p>
 
         <button
         class="delete-btn"
