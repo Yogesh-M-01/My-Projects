@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doctor Appointment System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+
+<h1>👨‍⚕️ Doctor Appointment System</h1>
+
+<div class="form">
+
+<input type="text" id="patientName"
+placeholder="Patient Name">
+
+<select id="doctor">
+<option value="">Select Doctor</option>
+<option>Dr. Sharma - Cardiologist</option>
+<option>Dr. Rao - Dentist</option>
+<option>Dr. Patel - Neurologist</option>
+<option>Dr. Kumar - General Physician</option>
+</select>
+
+<input type="date" id="date">
+
+<select id="time">
+<option>09:00 AM</option>
+<option>10:00 AM</option>
+<option>11:00 AM</option>
+<option>02:00 PM</option>
+<option>03:00 PM</option>
+<option>04:00 PM</option>
+</select>
+
+<button onclick="bookAppointment()">
+Book Appointment
+</button>
+
+</div>
+
+<div class="appointments">
+
+<h2>Booked Appointments</h2>
+
+<div id="appointmentList"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
