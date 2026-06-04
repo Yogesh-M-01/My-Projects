@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>👨‍💼 Employee Management System</h1>
+
+<div class="form">
+
+<input type="text"
+id="name"
+placeholder="Employee Name">
+
+<select id="department">
+<option>HR</option>
+<option>IT</option>
+<option>Finance</option>
+<option>Marketing</option>
+</select>
+
+<button onclick="addEmployee()">
+Add Employee
+</button>
+
+</div>
+
+<input
+type="text"
+id="search"
+placeholder="Search Employee"
+onkeyup="renderEmployees()">
+
+<div id="employeeList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
