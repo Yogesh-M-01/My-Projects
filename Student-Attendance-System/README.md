@@ -1,4 +1,4 @@
-# 🎓 Student Attendance Management System
+#  Student Attendance Management System
 
 A web application to manage student attendance.
 
