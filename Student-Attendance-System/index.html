@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Attendance System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>🎓 Student Attendance System</h1>
+
+<div class="form">
+    <input
+    type="text"
+    id="studentName"
+    placeholder="Student Name">
+
+    <button onclick="addStudent()">
+        Add Student
+    </button>
+</div>
+
+<input
+type="text"
+id="search"
+placeholder="Search Student"
+onkeyup="renderStudents()">
+
+<div id="studentList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
