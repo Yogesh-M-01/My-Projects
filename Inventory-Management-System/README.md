@@ -1,4 +1,4 @@
-# 📦 Inventory Management System
+#  Inventory Management System
 
 A web application for managing products and stock.
 
