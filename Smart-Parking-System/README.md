@@ -1,4 +1,4 @@
-# 🚗 Smart Parking Management System
+# Smart Parking Management System
 
 A web application to manage parking slots and vehicles.
 
