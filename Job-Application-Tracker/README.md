@@ -1,4 +1,4 @@
-# 💼 Job Application Tracker
+# Job Application Tracker
 
 Track your job applications and interview schedules.
 
