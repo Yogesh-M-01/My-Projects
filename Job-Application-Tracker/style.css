@@ -1,1 +1,48 @@
+body{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
 
+input,select{
+    padding:10px;
+    margin:8px;
+    width:220px;
+}
+
+button{
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.card{
+    background:#1e293b;
+    width:600px;
+    margin:15px auto;
+    padding:15px;
+    border-radius:10px;
+}
+
+.applied{
+    color:#f59e0b;
+}
+
+.interview{
+    color:#3b82f6;
+}
+
+.selected{
+    color:#22c55e;
+}
+
+.rejected{
+    color:#ef4444;
+}
+
+.delete{
+    background:#dc2626;
+}
