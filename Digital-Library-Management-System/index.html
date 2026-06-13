@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Library Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>📚 Digital Library Management</h1>
+
+<div class="form">
+
+<input
+type="text"
+id="bookName"
+placeholder="Book Name">
+
+<input
+type="text"
+id="author"
+placeholder="Author Name">
+
+<select id="category">
+<option>Programming</option>
+<option>Science</option>
+<option>History</option>
+<option>Novel</option>
+</select>
+
+<button onclick="addBook()">
+Add Book
+</button>
+
+</div>
+
+<input
+type="text"
+id="search"
+placeholder="Search Books"
+onkeyup="renderBooks()">
+
+<div id="bookList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
