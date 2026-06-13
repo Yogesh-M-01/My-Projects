@@ -1,4 +1,4 @@
-# 📚 Digital Library Management System
+# Digital Library Management System
 
 A web application for managing books in a library.
 
