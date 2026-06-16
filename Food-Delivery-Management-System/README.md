@@ -1,4 +1,4 @@
-# 🍔 Food Delivery Management System
+# Food Delivery Management System
 
 A food order and delivery tracking system.
 
