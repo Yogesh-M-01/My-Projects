@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Delivery System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>🍔 Food Delivery Management System</h1>
+
+<div class="form">
+
+<input
+type="text"
+id="customer"
+placeholder="Customer Name">
+
+<input
+type="text"
+id="food"
+placeholder="Food Item">
+
+<input
+type="number"
+id="amount"
+placeholder="Order Amount">
+
+<select id="status">
+<option>Preparing</option>
+<option>Out For Delivery</option>
+<option>Delivered</option>
+</select>
+
+<button onclick="addOrder()">
+Place Order
+</button>
+
+</div>
+
+<div class="dashboard">
+
+<div class="box">
+<h2>Total Orders</h2>
+<h3 id="totalOrders">0</h3>
+</div>
+
+<div class="box">
+<h2>Total Revenue</h2>
+<h3 id="revenue">₹0</h3>
+</div>
+
+</div>
+
+<input
+type="text"
+id="search"
+placeholder="Search Customer"
+onkeyup="renderOrders()">
+
+<div id="orderList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
