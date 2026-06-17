@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cab Booking System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>🚖 Cab Booking System</h1>
+
+<div class="form">
+
+<input
+type="text"
+id="customer"
+placeholder="Customer Name">
+
+<input
+type="text"
+id="pickup"
+placeholder="Pickup Location">
+
+<input
+type="text"
+id="drop"
+placeholder="Drop Location">
+
+<input
+type="number"
+id="distance"
+placeholder="Distance (KM)">
+
+<button onclick="bookCab()">
+Book Cab
+</button>
+
+</div>
+
+<div class="dashboard">
+
+<div class="box">
+<h2>Total Trips</h2>
+<h3 id="totalTrips">0</h3>
+</div>
+
+<div class="box">
+<h2>Total Revenue</h2>
+<h3 id="revenue">₹0</h3>
+</div>
+
+</div>
+
+<div id="bookingList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
