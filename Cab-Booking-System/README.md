@@ -1,4 +1,4 @@
-# 🚖 Cab Booking System
+# Cab Booking System
 
 A cab booking and trip management application.
 
