@@ -1,1 +1,44 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
 
+input,select{
+    padding:10px;
+    margin:10px;
+    width:220px;
+}
+
+button{
+    padding:10px 20px;
+    background:#dc2626;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.dashboard{
+    margin:20px;
+}
+
+.box{
+    background:#1e293b;
+    width:220px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+}
+
+.card{
+    background:#1e293b;
+    width:600px;
+    margin:15px auto;
+    padding:15px;
+    border-radius:10px;
+}
+
+.delete{
+    background:#dc2626;
+}
