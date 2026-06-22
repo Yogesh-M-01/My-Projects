@@ -1,4 +1,4 @@
-# 🩸 Blood Bank Management System
+# Blood Bank Management System
 
 A web application for managing blood donors and blood groups.
 
