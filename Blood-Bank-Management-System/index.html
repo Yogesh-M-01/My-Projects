@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Bank Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>🩸 Blood Bank Management System</h1>
+
+<div class="form">
+
+<input
+type="text"
+id="name"
+placeholder="Donor Name">
+
+<select id="bloodGroup">
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+</select>
+
+<input
+type="text"
+id="contact"
+placeholder="Contact Number">
+
+<button onclick="addDonor()">
+Add Donor
+</button>
+
+</div>
+
+<div class="dashboard">
+
+<div class="box">
+<h2>Total Donors</h2>
+<h3 id="totalDonors">0</h3>
+</div>
+
+</div>
+
+<input
+type="text"
+id="search"
+placeholder="Search Blood Group"
+onkeyup="renderDonors()">
+
+<div id="donorList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
